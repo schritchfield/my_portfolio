@@ -1,0 +1,675 @@
+
+@font-face {
+	font-family: "Gothamfont";
+	src:url(fonts/Gotham-Black.woff);
+}
+
+@font-face {
+	font-family: "Gothaminputs";
+	src:url(fonts/Gotham-Light.woff);
+}
+
+
+@font-face {
+	font-family: "Gothamregular";
+	src:url(fonts/GothamBook.woff);
+}
+
+html, body {
+	font-family: "Gothamregular";
+	color: #000 !important;
+	height: 100%;
+    margin: 0;
+}
+*::-webkit-input-placeholder {
+	font-family: "Gothaminputs";
+}
+h5, h6{
+	font-family: "Gothamfont";
+}
+
+a:hover {
+	color: white;
+	text-decoration: none;
+}
+/** Navbar **/
+
+.headerfont {
+	font-family: "Gothamfont";
+}
+
+.nav-item {
+	margin-left: 30px;
+}
+
+.navbar {
+	box-shadow: 1px -3px 24px 2px #000;
+}
+
+.navlogo {
+	margin-left: 50px;
+	width: 200px;
+}
+
+.navbar-nav {
+	float: right;
+}
+
+#navbarText {
+	margin-left: 40% !important;
+}
+.nav-link{
+	margin-top:7%!important;
+}
+.btn-link{
+	color:#FFC904!important;
+	/*font-weight:900!important;*/
+	font-family:"Gothamfont";
+	font-size:18px;
+}
+/** Landing Page - Signed Out **/
+
+.footer {
+	background-color: #000 !important;
+	color: #fff !important;
+	margin-bottom: 0px !important;
+	padding: 50px !important;
+}
+
+.wrapper {
+
+	min-height: 35%;
+	margin-top: 10%;
+	/*margin-bottom: -30px;*/
+}
+
+.postjobbtn {
+	margin-bottom: 20px;
+	background-color: #000;
+	color: #FFF;
+	border-radius: 50px;
+	width: 150px;
+	padding-top: 10px;
+	color: #FFF;
+}
+
+
+.postjobbtnnav {
+	background-color: #000;
+	color: #FFF;
+	border-radius: 50px;
+	padding-top: 10px;
+	height: 45px;
+	color: #FFF;
+	line-height: 100%;
+}
+
+.aboutclusterizr {
+	margin-top: 150px;
+}
+
+@media (max-width: 548px) {
+	.aboutclusterizr {
+		margin-top: 0px;
+	}
+}
+
+.jointeambtn {
+	margin: auto;
+	width: 150px;
+	border-radius: 20px;
+	background-color: #FFC904;
+	padding-top: 10px;
+}
+
+.jobsearchform {
+	border-radius: 30px;
+	box-shadow: 0px 8px 20px -8px #000;
+	font-family: initial;
+	height: 50px;
+}
+
+.jobsearchbtn {
+	margin-top: 25px;
+    float: right;
+    background-color: #000;
+    color: #FFF;
+    border-radius: 50px;
+    width: 150px;
+    height: 50px;
+    padding-top: 10px;
+    line-height: 100%;
+    color: #FFF;
+	font-family: "Gothamregular";
+	display: inline-block;
+	transition: all 0.15s;
+
+}
+
+.btn {
+	display: inline-block;
+	transition: all 0.15s;
+}
+
+@media all and (max-width:30em){
+
+ .jobsearchbtn{
+  display:block;
+  margin: !important 0.4em auto;
+}
+
+ .btn{
+ 	
+ 	display: block;
+ 	margin: 0.4em auto;
+
+ }
+}
+
+.postjobbtn{
+	margin-top: 25px;
+    background-color: #000;
+    color: #FFF;
+    border-radius: 50px;
+    width: 150px;
+    height: 50px;
+    padding-top: 10px;
+    line-height: 100%;
+    color: #FFF;
+		font-family: "Gothamregular";
+
+}
+
+
+.jumbo1{
+  background-color: #FFFFFF;
+  background-image: -webkit-linear-gradient(150deg, #FFC904 35%, #FFFFFF 35%);
+  min-height: 400px;
+}
+
+.jumbo2{
+  background-color: #FFFFFF;
+  background-image: -webkit-linear-gradient(100deg, #000 45%, #FFFFFF 35%);
+  min-height: 400px;
+}
+
+.banner-text {
+
+	font-weight: bolder;
+}
+
+.help-banner{
+	background-image: url(../img/help-banner.png);
+	background-size:contain;
+}
+
+.help-banner-text{
+	padding: 0%;
+	text-align:center;
+}
+
+.help-input{
+	border-radius: 25px;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.help-img{
+	border-radius: 150px;
+    width: 100px;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+
+.form-control {
+
+	margin-top: 5%;
+	padding: 2%;
+}
+
+.row {
+
+	display: flex;
+	justify-content: center;
+}
+
+.card {
+
+	margin: 9%;
+}
+
+.roundedcard {
+	border-radius: 12px !important;
+	margin-top: 9%;
+}
+.jobcard{
+	cursor:pointer;
+}
+
+.text-center {
+
+}
+
+#text-box {
+
+	margin-left: 36%;
+}
+
+#circleBanner {
+
+	position: absolute;
+	margin-top: 7%;
+}
+
+#footer-row {
+
+	margin: auto;
+}
+
+.homeformrow {
+	width: 60%; 
+	margin: auto;
+}
+
+@media (max-width: 875px) {
+	.homeformrow {
+		width: 85%;
+	}
+}
+
+/** Sign In/Register Styles **/
+
+.loginfooter {
+	float: right;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+.forgotPassLink{
+	float:right;
+	margin-top:5px;
+	font-size:14px;
+	text-decoration:none!important;
+	color:black!important;
+}
+
+.jumbo3{
+  background-color: #FFFFFF;
+  background-image: -webkit-linear-gradient(117deg, #FFC904 48%, #FFFFFF 35%);
+	min-height: 90vh;
+	padding-top:7vh!important;
+}
+
+.loginSquare {
+	margin-top: 50px;
+	width: 60%;
+  margin: 0 auto;
+}
+.regSquare {
+	margin-top: 50px;
+	width: 70%;
+  margin: 0 auto;
+}
+.loginHeader{
+	font-family: "Gothamfont"!important;
+	margin-bottom:5%;
+}
+.registerHeader{
+	font-weight:900!important;
+	font-size:24px;
+}
+.resetHeader{
+	font-weight:900!important;
+}
+.loginSquare .form-group{
+	height:55px;
+}
+.logininfo{
+	margin-left: 10%;
+}
+
+/** Help Pages Styles **/
+
+.jumbo4 {
+	background-color: #FFFFFF;
+    background-image: linear-gradient(to right, #FFC904 70% , #ffc904a8);
+    min-height: 400px;
+	padding-bottom: 0px;
+}
+
+.banner-text-lg {
+	font-size: 2.3em;
+}
+
+.helpicons {
+	width: 110px;
+}
+
+.helptitle {
+	margin-top: 20px;
+	font-size: 1.2em;
+}
+
+.helpquestion {
+	font-size: 0.8em;
+	color: #9A9A9A;
+}
+
+/* Post Jobs Styles */
+
+.post-job-btn {
+	color: white;
+}
+
+.white-bkgd {
+	background-color: white !important;
+	width: 100%;
+}
+
+.post-job-btn:hover {
+	color: black;
+	text-decoration: none;
+}
+
+.push-top {
+	margin-top: 15%;
+}
+
+.post-text {
+	color: gray;
+	margin-left: 2.5%;
+}
+
+.push-btn {
+	margin-bottom: 30%;
+}
+
+.margin-right {
+	margin-right: 30%;
+}
+
+.push-left {
+	margin-left: 5.5%;
+}
+
+.list-right {
+	margin-left: 15%;
+}
+
+/* Careers Styles */
+
+.btn-right {
+	margin-right: 76.5%;
+}
+
+.left-push {
+	margin-left: 7.5%;
+	margin-top: 5%;
+}
+
+.img-width {
+	width: 100vw;
+	height: auto;
+	margin-bottom: 2%;
+	margin-top: 1.5%;
+}
+
+.where-we-are {
+	margin-bottom: 4%;
+	margin-top: 4%;
+}
+
+.orlando-fl {
+	margin-left: 10%;
+}
+
+.table-row {
+	margin-top: 2%;
+}
+
+.open-positions {
+	margin-bottom: 2%;
+}
+
+.search-zero {
+	margin-top: 0 !important;
+	margin-bottom: 2%;
+}
+
+.push-to-center-icon {
+	margin-left: 7.5%;
+	margin-bottom: 4%;
+}
+
+.middle-dudes-col {
+	margin-right: 5%;
+	margin-left: 5%;
+}
+
+.push-more {
+	margin-left: 12.5%;
+}
+
+.even-more {
+	margin-left: 20%;
+}
+
+.endless-amenities {
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+
+.bottom-icon-row {
+	margin-bottom: 4%;
+}
+
+/* Resume Search Styles */
+
+.skill-matching {
+	margin-bottom: 5%;
+	margin-top: 5%;
+	margin-right: 1%;
+}
+
+.resume-search-img1 {
+	width: 425px;
+	height: auto;
+}
+
+.search-button {
+	margin-left: 75%;
+}
+
+.resume-search-img2 {
+	width: 425px;
+	height: auto;
+	margin-top: 5%;
+	margin-left:55%;
+}
+
+/* Resume Search Results */
+
+.img-size {
+	width: 50px;
+	height: auto;
+}
+
+.radius {
+	border-radius: 25px;
+}
+
+/*====Employer profile added styles====*/
+.container-big{
+	width: 94%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.innercolumn{
+	padding-left: 1.5vw;
+	padding-right: 1.5vw;
+	padding-top: 1.5vw;
+	padding-bottom: 1.5vw;
+}
+.innercolumn-scroll{
+	margin-top:2%;
+	padding-left: 8%;
+	padding-right: 8%;
+	padding-top: 2%;
+	padding-bottom: 4%;
+	height:95.5%;
+	overflow-y:scroll;
+}
+.fadedScroller_fade {
+	content: '';
+    height: 60px;
+    width: 100%;
+    left: 5;
+    margin-top: -2%;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%, rgba(251, 251, 251, 0) 100%);
+    position: absolute;
+    z-index: 5000;
+}
+.fadedScroller_info {
+	content: '';
+    height: 60px;
+    width: 100%;
+    left: 5;
+    margin-top: -100vh;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%, rgba(251, 251, 251, 0) 100%);
+    position: absolute;
+    z-index: 5000;
+}
+.centralcolumn{
+	margin-top: 0;
+	padding-left: 8%;
+	padding-right: 8%;
+	padding-top: 2%;
+	padding-bottom: 8%;
+	height:100%;
+	overflow-y:scroll;
+}
+
+.tinytext{
+	font-size: .8em;
+}
+
+.shadow-sm-dark {
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.2) !important;
+}
+
+/** About Page **/
+
+.jumbo5 {
+	background-color: #FFFFFF;
+    background-image: -webkit-linear-gradient(150deg, #FFC904 45%, #FFFFFF 35%);
+  	min-height: 500px;
+}
+	
+.about-banner-text {
+	margin-top: 75px;
+	font-size: 2.5em;
+}
+
+.aboutgradient {
+	background-image: linear-gradient(to right, #FFC904 75% , #f5f0e1a8);
+	height: auto;
+}
+
+.teamsocialicon {
+	width: 25px;
+	text-align: center;
+}
+
+.teamcard {
+	
+}
+
+
+/*====DASHBOARD added styles====*/
+.fileuploadbtn {
+	cursor: pointer;
+  	width: 100%;
+  	height: 34px;
+  	overflow: hidden;
+	margin-top: 20px;
+	margin-bottom: -20px;
+}
+
+.fileuploadbtn:before {
+	width: 100%;
+  height: 32px;
+  font-size: 16px;
+  line-height: 32px;
+  content: 'Select Profile Image';
+  display: inline-block;
+  background: white;
+  border: 1px solid #000;
+  padding: 0 10px;
+  text-align: center;
+}
+
+.fileuploadbtn::-webkit-file-upload-button {
+  visibility: hidden;
+}
+
+.maindash{
+	margin-top:2%!important;
+}
+.fullTab > .nav-link.active{
+	background-color: white!important;
+    border-bottom: 10px solid!important;
+    border-color: #FFC904!important;
+    color: black!important;
+		border-top: none!important;
+	border-left: none!important;
+	border-right: none!important;
+}
+.nav-link:hover{
+color:#FFC904!important;
+border-top:none!important;
+	border-left:none!important;
+	border-right:none!important;
+	border-bottom:none;
+}
+.fullTab > .nav-link{
+border-bottom: 10px solid!important;
+    border-color: grey!important;
+		border-top:none!important;
+		border-left:none!important;
+		border-right:none!important;
+		border-radius:0px!important;
+}
+.fullTab{
+	width:50%;
+	text-align:center;
+	font-family:"Gothamfont";
+
+}
+
+.fullTab a{
+	color:black!important;
+}
+.nav-tabs{
+	border-bottom:0!important;
+}
+
+.fullTab:hover{
+	border-top:none!important;
+	border-left:none!important;
+	border-right:none!important;
+	border-bottom:none;
+	
+}
+.fullTab.active{
+	border-bottom:none!important;
+}
+
+.footerlinks {
+	color: #FFF;
+}
+
+textarea.form-control {
+	height: auto;
+	font-family: inherit;
+}

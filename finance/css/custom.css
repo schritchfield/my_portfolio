@@ -1,0 +1,120 @@
+.bg-primary {
+  background-color: #2AB7CA !important;
+}
+
+.bg-secondary {
+  background-color: #8D9394 !important;
+}
+
+.bg-lightgray1 {
+  background-color: #fff2ff !important;
+}
+
+.bg-lightgray2 {
+  background-color: #8D9394 !important;
+}
+
+.mycolor1 {
+	background-color: #FFFF82 !important;
+}
+
+.mycolor2 {
+	background-color: #FED766 !important;
+}
+
+.mycolor3 {
+	background-color: #FE4A49 !important;
+}
+
+.mycolor4 {
+	background-color: #06D6A0 !important;
+}
+
+.mycolor5 {
+	background-color: #EF476F !important;
+}
+
+/*====================================Green colors====*/
+.customgreen1 {
+ background-color: #183A37 !important; 
+}
+
+.customgreen2 {
+ background-color: #6ECC5F !important; 
+}
+
+.customgreen3 { /*this is basically black*/
+ background-color: #020402 !important; 
+}
+
+.customgreen4 {
+ background-color: #BEEDAA !important; 
+}
+
+.customgreen5 {
+ background-color: #244b3f !important; 
+}
+
+.ninetyp{
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.fraction{
+  font-size: 2em;
+}
+
+.highlightedIcon img{
+  border-radius: 10px;
+   background-color: #6ECC5F !important;
+}
+
+.raleway{
+  font-family: 'Raleway', sans-serif;
+}
+.staat{
+  font-family: 'Staatliches', cursive;
+}
+
+.hugetext{
+  font-size: 12em;
+}
+
+.sm_icon{
+  padding: 10px;
+}
+
+.navbar-dark {
+	background-color: #244b3f !important;
+  color: #FFFFFF !important;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+
+.cal_month{
+  margin: 2px;
+  width: 150px;
+  height: 100px;
+  background-color: #BEEDAA;
+  border-radius: 6px;
+}
+
+#singleline {
+  white-space: nowrap;
+}
+
+@media only screen and (max-width: 800px) {
+    .hugetext{
+      font-size: 7em;
+    }
+
+    .display-2{
+      font-size: 5em;
+    }
+
+    .display-4{
+      font-size: 3em;
+    }
+}

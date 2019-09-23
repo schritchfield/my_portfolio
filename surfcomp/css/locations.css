@@ -1,0 +1,26 @@
+.tab {
+  margin-left: 40px;
+}
+
+.tab:hover {
+  color: #F09440;
+}
+
+
+.row2 {
+  margin: 20px 15px 30px 15px;
+}
+
+.usasurf {
+  width:50%;
+  height:auto;
+  margin-top:10px;
+}
+
+.container {
+  background-color: white;
+}
+
+.nav-link  {
+  color:white;
+}
